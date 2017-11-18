@@ -1,0 +1,28 @@
+.container {
+    width: 400px;
+    border:1px solid red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+}
+
+.input-fields {
+    padding: 10px;
+
+    .input {
+        position: relative;
+
+        input {
+            width:200px;
+
+            & :focus {
+                
+            }
+        }
+
+        label {
+            position: absolute;
+        }
+    }
+}
